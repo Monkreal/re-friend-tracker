@@ -51,6 +51,14 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id":   "activity",
+                            "type": "autocomplete",
+                            "name": "Activity",
+                            "url": "/activity",
+                            "form": "ActivityForm",
+                            "width": 2
+                        },
+                        {
                             "id": "birthdate",
                             "type": "date",
                             "name": "Birthday",
@@ -89,6 +97,14 @@ export class GuiModel {
                             "name": "LocationName",
                             "width": 2,
                             "required": true
+                        },
+                        {
+                            "id":   "activity",
+                            "type": "autocomplete",
+                            "name": "Activity",
+                            "url": "/activity",
+                            "form": "ActivityForm",
+                            "width": 2
                         },
                         {
                             "type": "deleteButton",
